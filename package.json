@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Project-JS-The-Code-Magic/",
+    "build": "vite build --base=/js_94_ValentynHromadskyi/",
     "preview": "vite preview"
   },
   "devDependencies": {
