@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_94_ValentynHromadskyi/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Code Magic</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    
+    <script type="module" crossorigin src="/js_94_ValentynHromadskyi/assets/vendor-a61d8330.js"></script>
+    <script type="module" crossorigin src="/js_94_ValentynHromadskyi/assets/main-59f184fb.js"></script>
+    <link rel="stylesheet" href="/js_94_ValentynHromadskyi/assets/main-1a4bda7a.css">
+  </head>
+  <body>
+    <!--Dmytro Yuryk -->
+    <section class="page-header">
+  <div class="header-container container">
+    <div class="header-wrapper">
+      <a class="link-logo" href="./index.html">
+        <button class="header-logo">
+          <svg class="header-logo-icon">
+            <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-tdesign_cabbage"></use>
+          </svg>
+        </button>
+        Food Boutique
+      </a>
+      <nav>
+        <ul class="header-menu">
+          <li>
+            <a class="header-menu-link" href="./index.html">
+              <button class="header-menu-button-home" type="button">
+                Home
+              </button>
+            </a>
+          </li>
+          <li>
+            <a class="header-menu-link" href="./cart.html">
+              <button class="header-menu-button-cart" type="button">
+                <svg class="header-menu-icon-cart">
+                  <use
+                    href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-heroicons-solid_shopping-cart"
+                  ></use>
+                </svg>
+              </button>
+              <span class="header-menu-cart"> Cart (0) </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+
+    
+    <main>
+           <!-- Evelina -->
+       <section class="cart">
+  <div class="container">
+    <div class="cart-title-block">
+      <div class="cart-title-icon">
+        <svg class="cart-title-icon-svg" width="18" height="18">
+          <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-heroicons-solid_shopping-cart"></use>
+        </svg>
+      </div>
+      <div class="cart-title">
+        <h2 class="cart-title-text">cart(<span id="cart-counter">0</span>)</h2>
+      </div>
+    </div>
+
+    <div class="js-cart-block">
+      <!-- блок delete all (hidden) -->
+      <div class="delete-cart-list">
+        <div class="cart-delete-all-section">
+          <p class="delete-all-text">Delete all</p>
+          <button type="button" class="delete-all-btn">
+            <svg class="delete-close-icon">
+              <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="cart-list-block"></div>
+      </div>
+      <!-- секція your-order (hidden) -->
+      <div class="cart-total-order">
+        <p class="your-order-title">Your Order</p>
+        <div class="your-order-block">
+          <div class="cart-total-price">
+            <p class="cart-total-title">Total</p>
+            <p class="cart-sum">
+              Sum:<span class="span-sum" id="your-order-total-price"></span>
+            </p>
+          </div>
+        </div>
+
+        <form class="cart-checkout-form">
+          <label for="cart-client-email" class="cart-label">
+            <span class="cart-placeholder">Mail:</span>
+            <input
+              class="cart-input"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </label>
+
+          <button
+            type="submit"
+            class="cart-button-submit"
+            aria-label="Checkout cart"
+          >
+            Checkout
+          </button>
+        </form>
+      </div>
+
+      <!-- пуста корзина (hidden) -->
+      <div class="cart-empty-cart">
+        <div class="cart-img-empty-cart">
+          <img
+            class="img-shopping-cart"
+            src="/js_94_ValentynHromadskyi/assets/yellow-shopping-basket-e7d97901.png"
+            width="132"
+            height="114"
+          />
+        </div>
+        <div class="cart-text">
+          <p class="cart-text-empty">
+            Your basket is <span class="cart-text-span">empty...</span>
+          </p>
+          <p class="cart-all-text">
+            Go to the main page to select your favorite <br />
+            products and add them to the cart.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <!-- Vladislav -->
+    <!------------------------- FOOTER ------------------------->
+
+<div class="footer-container">
+    <section class="footer container">
+        <!---------------------- LOGO ------------------------------->
+        <div class="footer-parent-div">
+            <div class="footer-first-div">
+                <div class="footer-logo-div">
+                    <a href="#" class="footer-logo-link">
+                        <svg class="footer-svg" width="16" height="16">
+                            <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-tdesign_cabbage"></use>
+                        </svg>
+                        <h2 class="logo-footer-text">Food Boutique</h2>
+                    </a>
+
+                </div>
+
+                <!--------------------------- SOCIAL LINKS ---------------------------->
+
+                <div class="foot-social-div">
+                    <ul class="foot-soc-link">
+                        <li class="footer-social-team">
+                            <a class="social-link" href="https://www.facebook.com/goITclub/" target="_blank"
+                                aria-label="facebook">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-team">
+                            <a class="social-link" href="https://www.instagram.com/goitclub/" target="_blank"
+                                aria-label="insta">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-team">
+                            <a class="social-link" href="https://www.youtube.com/c/GoIT" target="_blank"
+                                aria-label="youtube">
+                                <svg class="social-icon" width="24" height="24">
+                                    <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-youtube-v2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!----------------------- FOOTER TEXT -------------------->
+
+            <div class="footer-second-div">
+                <div class="foot-text-content">
+                    <h3 class="footer-title">Discover the Variety of Flavors and Quality</h3>
+                    <p class="footer-description">
+                        An online store where you will find fresh, natural and delicious products for a healthy life and
+                        unforgettable
+                        gastronomic adventures
+                    </p>
+                </div>
+
+                <div class="footer-sub">
+                    <p class="footer-sub-text">Subscribe and learn about new products!</p>
+                    <form class="form-footer">
+                        <label class="email-label">
+                            <input class="input-label" type="email" name="email"
+                                pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,4}$" placeholder="Email" />
+                        </label>
+                        <button type="submit" class="subscribe">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-smal-text">
+            <p class="foot-first-txt">Food Boutique. All rights reserved</p>
+            <div class="foot-second-txt-div">
+                <p class="foot-second-txt">Privacy Policy</p>
+                <p class="foot-second">/</p>
+                <p class="foot-second-txt">Terms of Service</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!---------------------- MODAL SUBSCRIPTION ------------------>
+
+
+<div class="modal-backdrop-subscription is-hidden">
+    <div class="modal-subscription is-hidden">
+        <div class="modal_subcont">
+            <button class="close">
+                <a href="">
+                    <svg class="icon-close">
+                        <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-close-mini"></use>
+                    </svg>
+                </a>
+
+            </button>
+            <div class="modal-subtext">
+                <h2 class="title-sub">
+                    Thanks for subscribing for
+                    <span class="span-text">new</span> products
+                </h2>
+                <p class="paragraph-sub">
+                    We promise you organic and high-quality products that will meet your
+                    expectations. Please stay with us and we promise you many pleasant
+                    surprises.
+                </p>
+                <div class="modal-subscription-img"></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal-unsubscription is-hidden">
+        <div class="modal-unsubcont">
+            <button class="close">
+                <a href="">
+                    <svg class="icon-close">
+                        <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-close-mini"></use>
+                    </svg>
+                </a>
+
+            </button>
+            <div class="modal-unsubtext">
+                <h3 class="title-unsub">
+                    This <span class="span-text">email address</span> has already been
+                    entered
+                </h3>
+                <p class="paragraph-unsub">
+                    You have already subscribed to our new products. Watch for offers at
+                    the mailing address.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="modal">
+  <div class="modal-container">
+    <button class="close-button">
+      <svg class="close-button-icon">
+        <use href="/js_94_ValentynHromadskyi/assets/icons-fa1f684b.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <div class="modal-content"></div>
+  </div>
+</div>
+
+ 
+  
+   
+
+    
+  </body>
+</html>
